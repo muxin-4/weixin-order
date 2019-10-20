@@ -1,0 +1,14 @@
+Starting LoggerTest on wangguanyudeMacBook-Pro.local with PID 2413 (started by wgy in /Users/wgy/education video/weixin-order)
+No active profile set, falling back to default profiles: default
+Initializing ExecutorService 'applicationTaskExecutor'
+Started LoggerTest in 2.983 seconds (JVM running for 4.526)
+name: wgy, password: 123456
+info...
+Shutting down ExecutorService 'applicationTaskExecutor'
+Starting LoggerTest on wangguanyudeMacBook-Pro.local with PID 2556 (started by wgy in /Users/wgy/education video/weixin-order)
+No active profile set, falling back to default profiles: default
+Initializing ExecutorService 'applicationTaskExecutor'
+Started LoggerTest in 4.112 seconds (JVM running for 5.553)
+name: wgy, password: 123456
+info...
+Shutting down ExecutorService 'applicationTaskExecutor'
