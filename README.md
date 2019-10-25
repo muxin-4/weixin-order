@@ -49,3 +49,6 @@
 ![](./docs/imgs/数据库/数据库表之间的关系说明.jpg)
 ![](./docs/imgs/数据库/订单详情表.jpg)
 
+
+### 部署
+mvn clean package -Dmaven.test.skip=true

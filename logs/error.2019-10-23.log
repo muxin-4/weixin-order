@@ -1,0 +1,45 @@
+
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field repository in com.order.sell.service.impl.ProductServiceImpl required a bean named 'entityManagerFactory' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'entityManagerFactory' in your configuration.
+
+
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field repository in com.order.sell.service.impl.ProductServiceImpl required a bean named 'entityManagerFactory' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'entityManagerFactory' in your configuration.
+
+
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field repository in com.order.sell.service.impl.ProductServiceImpl required a bean named 'entityManagerFactory' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'entityManagerFactory' in your configuration.
+

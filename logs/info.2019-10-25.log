@@ -1,0 +1,143 @@
+Starting ProductCategoryRepositoryTest on wangguanyudeMacBook-Pro.local with PID 67660 (started by wgy in /Users/wgy/education video/weixin-order)
+No active profile set, falling back to default profiles: default
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 79ms. Found 2 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$645fb696] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.3.11.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Initializing ExecutorService 'applicationTaskExecutor'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Started ProductCategoryRepositoryTest in 5.197 seconds (JVM running for 6.092)
+Began transaction (1) for test context [DefaultTestContext@72d1ad2e testClass = ProductCategoryRepositoryTest, testInstance = com.order.sell.repository.ProductCategoryRepositoryTest@1c2dd89b, testMethod = saveTest@ProductCategoryRepositoryTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@2d7275fc testClass = ProductCategoryRepositoryTest, locations = '{}', classes = '{class com.order.sell.SellApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@c46bcd4, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@37d31475, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@32d2fa64, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@670b40af], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@579846cc]; rollback [true]
+Rolled back transaction for test: [DefaultTestContext@72d1ad2e testClass = ProductCategoryRepositoryTest, testInstance = com.order.sell.repository.ProductCategoryRepositoryTest@1c2dd89b, testMethod = saveTest@ProductCategoryRepositoryTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@2d7275fc testClass = ProductCategoryRepositoryTest, locations = '{}', classes = '{class com.order.sell.SellApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@c46bcd4, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@37d31475, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@32d2fa64, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@670b40af], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]]
+HHH000397: Using ASTQueryTranslatorFactory
+Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.order.sell.repository.ProductInfoRepositoryTest], using SpringBootContextLoader
+Could not detect default resource locations for test class [com.order.sell.repository.ProductInfoRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+Could not detect default configuration classes for test class [com.order.sell.repository.ProductInfoRepositoryTest]: ProductInfoRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+Found @SpringBootConfiguration com.order.sell.SellApplication for test class com.order.sell.repository.ProductInfoRepositoryTest
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5e541ef9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@38054d01, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@28ce75ec, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@778113f2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@9dc782d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1ba35152, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@401926df, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3ff8a3ad, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@550fa96f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@54275b5d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5d01b0d8, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@271e851e]
+Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.order.sell.SellApplicationTests], using SpringBootContextLoader
+Could not detect default resource locations for test class [com.order.sell.SellApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+Could not detect default configuration classes for test class [com.order.sell.SellApplicationTests]: SellApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+Found @SpringBootConfiguration com.order.sell.SellApplication for test class com.order.sell.SellApplicationTests
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@749d7c01, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1d3a03fe, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@f48a080, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5f7cd50e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@401ec794, org.springframework.test.context.transaction.TransactionalTestExecutionListener@d76099a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@47f0f414, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7e1d8d41, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4809c771, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@750e2d33, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@359e27d2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@277bc3a5]
+Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.order.sell.service.impl.CategoryServiceImplTest], using SpringBootContextLoader
+Could not detect default resource locations for test class [com.order.sell.service.impl.CategoryServiceImplTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+Could not detect default configuration classes for test class [com.order.sell.service.impl.CategoryServiceImplTest]: CategoryServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+Found @SpringBootConfiguration com.order.sell.SellApplication for test class com.order.sell.service.impl.CategoryServiceImplTest
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@36cfe107, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@100eeedc, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@56266bda, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@18bb1b88, org.springframework.test.context.support.DirtiesContextTestExecutionListener@51b51641, org.springframework.test.context.transaction.TransactionalTestExecutionListener@362a6aa5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@53b7bf01, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@139089a4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6a6e9289, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@ff4b223, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@61554b6b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@761f234c]
+Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.order.sell.service.impl.ProductServiceImplTest], using SpringBootContextLoader
+Could not detect default resource locations for test class [com.order.sell.service.impl.ProductServiceImplTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+Could not detect default configuration classes for test class [com.order.sell.service.impl.ProductServiceImplTest]: ProductServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+Found @SpringBootConfiguration com.order.sell.SellApplication for test class com.order.sell.service.impl.ProductServiceImplTest
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7f2ca6f8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@79d49790, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@13dc6649, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1851c7d2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@250a946, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5fe5c68b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2ffb0d10, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3982206a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3e9fb485, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4f3fec43, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@38dbeb39, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@10f20d38]
+Shutting down ExecutorService 'applicationTaskExecutor'
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting SellApplication on wangguanyudeMacBook-Pro.local with PID 70959 (started by wgy in /Users/wgy/education video/weixin-order)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41d477ed: startup date [Fri Oct 25 10:17:45 CST 2019]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$291bf4b3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/wgy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1176 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41d477ed: startup date [Fri Oct 25 10:17:45 CST 2019]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.order.sell.VO.ResultVO com.order.sell.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Bean with name 'dataSource' has been autodetected for JMX exposure
+Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started SellApplication in 3.902 seconds (JVM running for 4.818)
+Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41d477ed: startup date [Fri Oct 25 10:17:45 CST 2019]; root of context hierarchy
+Unregistering JMX-exposed beans on shutdown
+Unregistering JMX-exposed beans
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting SellApplication on wangguanyudeMacBook-Pro.local with PID 71078 (started by wgy in /Users/wgy/education video/weixin-order)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@65fb9ffc: startup date [Fri Oct 25 10:20:24 CST 2019]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d6cff22b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.34
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/wgy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1223 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@65fb9ffc: startup date [Fri Oct 25 10:20:24 CST 2019]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.order.sell.VO.ResultVO com.order.sell.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Bean with name 'dataSource' has been autodetected for JMX exposure
+Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started SellApplication in 3.332 seconds (JVM running for 3.916)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+HHH000397: Using ASTQueryTranslatorFactory
