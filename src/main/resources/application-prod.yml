@@ -1,0 +1,15 @@
+#logging.pattern.console="%d - %msg%n"
+#logging.path=./logs
+#level:
+#    com.order.LoggerTest: debug
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 52Baobao.
+    url: jdbc:mysql://106.15.233.81/sell?characterEncoding=utf-8&useSSL=false
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+server:
+  servlet:
+    context-path: /sell
